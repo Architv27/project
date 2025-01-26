@@ -4,6 +4,7 @@ import { ReminderPage } from './components/ReminderPage';
 import { TimerPage } from './components/TimerPage';
 import { SettingsPage } from './components/SettingsPage';
 import type { Settings } from './types';
+import "./index.css";
 
 // In-memory fallback if localStorage isn’t available or is blocked
 let inMemorySettings: Settings = {
